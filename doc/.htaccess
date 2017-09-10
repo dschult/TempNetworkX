@@ -1,4 +1,4 @@
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^networkx.readthedocs.org [NC,OR]
-RewriteCond %{HTTP_HOST} ^networkx.readthedocs.com [NC]
+RewriteCond %{HTTP_HOST} ^networkx.readthedocs.io [NC]
 RewriteRule ^en/(.*)$ http://example.net/$1 [L,R=301,NC]
